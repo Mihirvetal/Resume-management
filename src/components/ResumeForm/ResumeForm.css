@@ -1,0 +1,38 @@
+.resume-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 800px;
+    color: black;
+  }
+  .resume-form>input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(170, 155, 155);
+
+  }
+  .skill{
+    width: 800px;
+    border-radius: 5px;
+  }
+  
+  .error {
+    color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #C4D9FF;
+    
+  }
+
+  .submitbtn{
+    background-color: #C5BAFF;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+  }
